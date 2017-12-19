@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "xayma_personnalisaton",
+    'name': "Xayma Branding",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Enlève sur l'interface utilisateur, les références à Odoo""",
 
     'description': """
-        Long description of module's purpose
+        Enlève les références à Odoo sur l'interface utilisateur, aux emplacements suivants :
+        - Footer
+        - Login Page
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Elhadji Malang DIEDHIOU",
+    'website': "http://www.supermalang.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
@@ -27,6 +28,8 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/xayma.debrand.footer.template.xml',
+        'views/xayma.debrand.header.xml',
+        'views/xayma.debrand.loginpage.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

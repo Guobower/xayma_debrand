@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="xayma_web_layout" inherit_id="web.layout">
+            <xpath expr="//title" position="replace">
+                <title t-esc="title or 'Mansoft'"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

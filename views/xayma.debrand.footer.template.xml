@@ -1,9 +1,9 @@
 <odoo>
     <data>
         <template id="xayma_menu_secondary" inherit_id="web.menu_secondary">
-            <xpath expr="//div[@class='o_sub_menu_footer']" position="after">
+            <xpath expr="//div[@class='o_sub_menu_footer']" position="replace">
                 <div class="o_sub_menu_footer">
-                    Powered by <a href="#"><span>Supermalang</span></a>
+                    Powered by <a href="#"><span>Mansoft</span></a>
                 </div>
             </xpath>
         </template>
