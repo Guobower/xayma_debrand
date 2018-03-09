@@ -19,6 +19,7 @@
         'views/xayma.debrand.footer.template.xml',
         'views/xayma.debrand.header.xml',
         'views/xayma.debrand.loginpage.xml',
+        'views/entrepots.xml',
     ],
     'license': "LGPL-3",
     'auto_install': True,

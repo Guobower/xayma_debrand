@@ -1,0 +1,14 @@
+<!--odoo>
+	<data>
+		<record model="ir.ui.view" id="xym_stock_warehouse_form">
+			<field name="name">xym.stock.warehouse.form</field>
+			<field name="model">stock.warehouse</field>
+			<field name="inherit_id" ref="stock.view_warehouse" />
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='partner_id']" position="after">
+					<field name="dateDemontage"/>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo-->
