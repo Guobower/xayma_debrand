@@ -8,7 +8,7 @@
                     </div>
                     <t t-raw="0"/>
                     <div class="text-center" t-if="not disable_footer">
-                        <a href="#" target="_blank">Powered by <span>Mansoft</span></a>
+                        <a href="#" target="_blank">Powered by <span>Xayma Solutions</span></a>
                     </div>
                 </div>
             </xpath>
