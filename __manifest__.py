@@ -25,5 +25,6 @@
         'views/xayma.debrand.header.xml',
         'views/xayma.debrand.loginpage.xml',
     ],
+    'qweb': ['static/src/xml/base.xml'],
     'installable': True,
 }
