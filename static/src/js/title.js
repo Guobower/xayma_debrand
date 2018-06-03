@@ -45,7 +45,7 @@ init: function (parent) {
         limit: 1,
         context: session.user_context,
     }).done(function(result){
-        self.set('title_part', {"zopenerp": result && result[0] && result[0].company_name || ''});
+        self.set('title_part', {"zopenerp": "Xayma"});
     });
     },
 });
