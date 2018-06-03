@@ -8,7 +8,7 @@
                     </div>
                     <t t-raw="0"/>
                     <div class="text-center" t-if="not disable_footer">
-                        <a href="#" target="_blank">Powered by <span>Xayma Solutions</span></a>
+                        Propulsé par <a href="http://xayma-solutions.com" target="_blank"><span>Xayma Solutions</span></a>
                     </div>
                 </div>
             </xpath>

@@ -1,22 +1,29 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Xayma Branding",
-    'summary': """
-        Enlève sur l'interface utilisateur, les références à Odoo""",
+    'summary': "Personnalise l'interface de Xayma",
     'description': """
-        Enlève les références à Odoo sur l'interface utilisateur, aux emplacements suivants :
-        - Footer
-        - Login Page
+        Met les références à Xayma sur l'interface utilisateur, aux emplacements suivants :
+        - Page de connexion
+        - Footers
+        - Titre de page
+        - Favicons
+        - Copyrights
+        - Warning Dialogues
+        - Error Dialogues
+        - Wizards
+        - Backend pages
     """,
-    'author': "Elhadji Malang DIEDHIOU",
-    'website': "http://www.supermalang.com",
-    'category': 'Usability',
+    'author': "Xayma Solutions",
+    'website': "http://www.xayma-solutions.com",
+    'category': 'Tools',
     'version': '11.0.1.0',
     'depends': ['base'],
+    'demo': [],
     'data': [
         'views/xayma.debrand.footer.template.xml',
         'views/xayma.debrand.header.xml',
         'views/xayma.debrand.loginpage.xml',
     ],
-    'demo': [],
+    'installable': True,
 }
